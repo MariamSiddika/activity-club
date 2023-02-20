@@ -1,0 +1,27 @@
+.user-container img{
+    width: 30%;
+    margin-right: 15px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user h4{
+    margin-bottom: 0;
+}
+.user p{
+    margin-top: 5px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(252, 252, 240);
+    margin-top: 10px;
+}
+.user-info h3{
+    margin-bottom: 0;
+}
+.user-info p{
+    margin-top: 5px;
+}
