@@ -21,7 +21,7 @@ const Time = () => {
                 <h3>Add a Break</h3>
                 <div className='button-container'>
                     {
-                        timeData.map(time => <button>{time.minute} min</button>)
+                        timeData.map(time => <button key ={time.id}>{time.minute} min</button>)
                     }
                 </div>
                 <h3>Activity Detail</h3>

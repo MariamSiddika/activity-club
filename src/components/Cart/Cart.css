@@ -12,6 +12,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
-/* .cart-activity{
-    background-color: rgb(252, 252, 240);
-} */
+.cart-activity{
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}

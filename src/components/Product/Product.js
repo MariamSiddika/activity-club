@@ -3,7 +3,8 @@ import './Product.css'
 
 const Product = (props) => {
     // console.log(props)
-    const { picture, age, time, title, about } = props.product;
+    const {product, handleActivity} = props;
+    const { picture, age, time, title, about } = product;
     return (
         <div className='product'>
             <div className='product-img'>
@@ -14,7 +15,7 @@ const Product = (props) => {
                 <p>{about.substring(0, 150)}</p>
                 <h4>Age Limit: {age} years</h4>
                 <h4>Time Required: {time}m</h4>
-                <button className='product-btn'>Add To List</button>
+                <button onClick={() => handleActivity(product)} className='product-btn'>Add To List</button>
             </div>
 
         </div>
