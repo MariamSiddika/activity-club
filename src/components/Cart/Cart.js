@@ -15,10 +15,10 @@ const Cart = () => {
     }, [])
 
     const handleActivity = (product) => {
-        console.log(product);
+        //console.log(product);
         const newTime = time + product.time;
         setTime(newTime);
-        console.log(newTime)
+        
     }
 
     return (
@@ -39,7 +39,7 @@ const Cart = () => {
             <div>
                <div className='cart-activity'>
                <User></User>
-               <Time></Time>
+               <Time time = {time}></Time>
                </div>
             </div>
         </div>
